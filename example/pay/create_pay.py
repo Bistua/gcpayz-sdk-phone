@@ -19,7 +19,7 @@ try:
         mchOrderNo="mho{}".format(int(time.time() * 1000)),  # 商户订单号
         wayCode="INDIA_PAY_IN",  # 支付方式
         amount=50000000,  # 支付金额（单位分）
-        currency="cny",  # 币种（目前只支持cny）
+        currency="INR",  # 币种（目前只支持cny）
         clientIp="192.168.1.132",  # 发起支付请求客户端的IP地址
         subject="游戏攻略",  # 商品标题
         body="未知特殊的充值记录",  # 商品描述
