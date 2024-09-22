@@ -116,7 +116,7 @@ gcpayz.Pay.create(
 ```python
 gcpayz.Pay.channel_user_jump(
     ifCode="AUTO",  # 支付接口，目前只支持传 AUTO
-    redirectUrl="https://www.jeequan.com"  # 跳转地址
+    redirectUrl="https://www.gcpayz.com"  # 跳转地址
 )
 ```
 
